@@ -1,13 +1,13 @@
 {
   "name": "تليثون العرب",
   "description": "اهلا بك في تنصيب تليثون العرب لمتابعه قناتنا : https://t.me/iqthon ",
-  "logo": "https://telegra.ph/file/f1b9e7e1a5b0f719bc5d9.jpg",
+  "logo": "https://telegra.ph/file/277559574a1e241f5532e.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LonamiWebs/Telethon/",
+  "repository": "https://github.com/telethon-Arab/helper/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -36,11 +36,16 @@
       "value": ""
     },
     "TZ": {
-      "description": "الوقت",
+      "description": "الوقت http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Baghdad",
       "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "Telethon-Ar",
+      "value": "Telethon-Ar",
+      "required": false
     }
-  },
+ },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
