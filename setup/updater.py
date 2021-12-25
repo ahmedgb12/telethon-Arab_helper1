@@ -46,7 +46,6 @@ async def update_requirements(main , test):
     except Exception as e:
         print(f"عذرا هناك خطا في تنزيل المكاتب : {str(e)}")
 
-
 loop = asyncio.get_event_loop()
 loop.run_until_complete(update_requirements(sys.argv[1] , sys.argv[2]))
 loop.close()
