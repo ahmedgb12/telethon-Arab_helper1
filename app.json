@@ -41,11 +41,11 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Telethon-Ar",
+      "description": "لا تغيـر فيها",
       "value": "Telethon-Ar",
       "required": false
     }
- },
+  },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
